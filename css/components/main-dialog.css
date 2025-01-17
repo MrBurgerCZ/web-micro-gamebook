@@ -30,7 +30,6 @@
 .main-dialog__options {
   list-style: none;
   display: flex;
-  /* gap: 1em; */
   padding: 0;
 
   >li {
