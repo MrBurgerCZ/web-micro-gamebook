@@ -1,4 +1,4 @@
-@layer reset, init, layout, components;
+@layer reset, layout, components;
 
 @import url('normalize.css') layer(reset);
 @import url('layout.css') layer(layout);
@@ -10,8 +10,9 @@
   color-scheme: light dark;
   --color-primary: light-dark(#8839ef, #cba6f7);
   --color-secondary: light-dark(#dce0e8, #11111b);
+  --color-gray: light-dark(#9ca0b0, #6c7086);
   --background: light-dark(#dce0e8, #11111b);
-  --click-spark-color: light-dark(#11111b, #dce0e8);
+  --click-spark-color: light-dark(#1e1e2e, #45475a);
 }
 
 html {
