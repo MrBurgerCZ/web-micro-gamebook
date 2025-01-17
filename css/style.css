@@ -21,6 +21,11 @@ html {
   font-weight: 500;
 }
 
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
 @layer components {
   body {
     background-color: var(--background);

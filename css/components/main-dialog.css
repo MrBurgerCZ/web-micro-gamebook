@@ -45,7 +45,7 @@
       padding: 1em;
       width: 100%;
       box-sizing: border-box;
-      transition: background-color 0.5s ease;
+      transition: color 0.5s ease;
 
 
       &:visited {
@@ -55,10 +55,11 @@
 
     &:hover {
       background-color: var(--color-primary);
-      transition: background-color 0.3s ease;
+      transition: background-color 0.5s ease;
 
       >a {
         color: var(--color-secondary);
+        transition: color 0.5s ease;
       }
     }
   }
