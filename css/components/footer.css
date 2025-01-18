@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: var(--color-gray) !important;
+}
+
+.footer-text a {
+  color: var(--color-gray) !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-text a:visited {
+  color: var(--color-gray) !important;
+}

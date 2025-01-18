@@ -3,6 +3,8 @@
 @import url('normalize.css') layer(reset);
 @import url('layout.css') layer(layout);
 @import url('components/main-dialog.css') layer(components);
+@import url('components/header.css') layer(components);
+@import url('components/footer.css') layer(components);
 
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -13,6 +15,12 @@
   --color-gray: light-dark(#9ca0b0, #6c7086);
   --background: light-dark(#dce0e8, #11111b);
   --click-spark-color: light-dark(#1e1e2e, #45475a);
+
+  --red: light-dark(#d20f39, #f38ba8);
+  --green: light-dark(#40a02b, #a6e3a1);
+  --blue: light-dark(#1e66f5, #89b4fa);
+  --mantle: light-dark(#e6e9ef, #181825);
+  --base: light-dark(#eff1f5, #1e1e2e);
 }
 
 html {
@@ -21,13 +29,27 @@ html {
   font-weight: 500;
 }
 
+.small {
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
 a {
   font-weight: 700;
   text-decoration: none;
+}
+.link {
+  color: var(--color-primary);
 }
 
 @layer components {
   body {
     background-color: var(--background);
+    transition: background-color 3s ease;
   }
 }
