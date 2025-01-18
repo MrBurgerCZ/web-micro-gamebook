@@ -50,6 +50,6 @@ a {
 @layer components {
   body {
     background-color: var(--background);
-    transition: background-color 3s ease;
+    transition: background-color 2s ease;
   }
 }
