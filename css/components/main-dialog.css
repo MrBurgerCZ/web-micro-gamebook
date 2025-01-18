@@ -4,15 +4,16 @@
   align-items: center;
   padding: 2em;
   background-color: var(--mantle);
-  border: 2px solid var(--background);
+  border: 2px solid;
+  border-color: var(--background);
   transition: background-color 2s ease;
-  transition: 0.35s ease;
+  transition: 0.5s ease;
   border-radius: 16px;
   margin: 3em;
   margin-bottom: 0;
   overflow: hidden;
   &:hover {
-    border: 2px solid var(--color-primary);
+    border-color: var(--color-primary);
   }
 }
 
