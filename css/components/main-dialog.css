@@ -73,6 +73,12 @@
   }
 }
 
+.option-red {
+  &:hover {
+    background-color: var(--red) !important;
+  }
+}
+
 .option-green {
   &:hover {
     background-color: var(--green) !important;
